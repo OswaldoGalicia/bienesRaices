@@ -1,4 +1,8 @@
 <?php
+        //bd
+        require '../../includes/config/database.php';
+        conectarBD();
+        
         require '../../includes/funciones.php';
         incluirTemplate('header');
 ?>
